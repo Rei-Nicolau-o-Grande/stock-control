@@ -24,12 +24,14 @@ import { DropdownModule } from 'primeng/dropdown';
 import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { TooltipModule } from 'primeng/tooltip';
 import { ConfirmationService } from 'primeng/api';
+import { ProductsTableComponent } from './components/products-table/products-table.component';
 
 
 
 @NgModule({
   declarations: [
-    ProductsHomeComponent
+    ProductsHomeComponent,
+    ProductsTableComponent
   ],
   imports: [
     CommonModule,
